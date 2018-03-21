@@ -1,0 +1,71 @@
+    1  git config --gloval user,name "Tomas Kris Blazhevski"
+    2  git config --global user,name "Tomas Kris Blazhevski"
+    3  git config --global user.name "Tomas Kris Blazhevski"
+    4  git config --global user.email tomaskris.blazhevski@finki.ukim.mk
+    5  git config --global color.ui true
+    6  mkdir lab1
+    7  cd lab1
+    8  ls
+    9  git init
+   10  \touch l1.txt
+   11  ls
+   12  nano l1.txt
+   13  cat l1.txt
+   14* 
+   15  ls
+   16  \pwd
+   17  git commit -m 'initial commit' c/users/142023/lab1
+   18  git commit -m 'initial commit' c/users/142023/lab1/l1.txt
+   19  git commit -m 'initial commit' c/Csers/142023/lab1/l1.txt
+   20  git commit -m 'initial commit' l1.txt
+   21  git commit -m "initial commit"
+   22  git commit -m "initial commit" l1.txt
+   23  git add -all
+   24  git add --all
+   25  git status 
+   26  git commit -m "initial commit" 
+   27  echo PET > l1.txt
+   28  cat l1.txt
+   29  echo PET >> l1.txt
+   30  cat l1.txt
+   31  echo Tomas-Kris Blazhevski 142023 > l1.txt
+   32  cat l1.txt
+   33  echo PET >> l1.txt
+   34  cat l1.txt
+   35  git statys
+   36  git status
+   37  git add --all
+   38  git status
+   39  git commit -m 'modify l1.txt'
+   40  git remote add origin https://github.com/tomaskrisp/lab1
+   41  git push -u origin master
+   42  echo ZABTISHENJE >> l1.txt
+   43  cat l1.txt 
+   44  git status 
+   45  git reset --hard HEAD^
+   46  git branch 
+   47  git branch logging 
+   48  git branch 
+   49  git checkout logging
+   50  touch log.txt
+   51  git log > log.txt
+   52  cat log.txt 
+   53  git status 
+   54  git add log.txt
+   55  git status
+   56  git commit -m "New File" log.txt
+   57  git push -u origin logging
+   58  git rebase master
+   59  git checkout master
+   60  git merge logging
+   61  ls
+   62  history 
+   63  history > 
+   64  git pull
+   65  git fetch 
+   66  git merge origin/master
+   67  git push
+   68  git branch allcommands 
+   69  git checkout allcommands
+   70  touch commands.txt
+   71  history > commands.txt
